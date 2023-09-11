@@ -1,0 +1,138 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+        .coopgames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #general {
+            background-color: #cccccc; 
+            height: 12vw;
+            width: 16vw;
+            background-repeat: no-repeat; 
+            background-size: 16vw 12vw;
+            border: black 0.2vw solid;
+            border-radius: 0.5vw;
+            margin-bottom: 2%;
+        }
+        /* Left 4 dead 2 */
+         .l4d2{
+            background-image: url("../games/coopgames/left4dead2/l4d2.jpg");
+        }
+        /* Don't Starve Together */
+         .dst{
+            background-image: url("../games/coopgames/dontstarvetogether/dst.jpg");
+        }
+        /* Among Us */
+         .amongus{
+            background-image: url("../games/coopgames/amongus/amongus.jpg");
+        }
+        /* Phasmophobia */
+         .phasmophobia{
+            background-image: url("../games/coopgames/phasmosphomobia/phasmophobia.jpg");
+        }
+        /* Terraria */
+         .terraria{
+            background-image: url("../games/coopgames/terraria/terraria.jpg");
+        }
+        /* Minecraft */
+         .mc{
+            background-image: url("../games/coopgames/minecraft/mc.jpg");
+        }
+        /* A Way Out */
+         .awayout{
+            background-image: url("../games/coopgames/awayout/awayout.jpg");
+        }
+        /* Overcooked 2 */
+         .oc2{
+            background-image: url("../games/coopgames/overcooked2/oc2.png");
+        }
+        /* Overcooked 2 */
+         .cuphead{
+            background-image: url("../games/coopgames/cuphead/cuphead.jpg");
+        }
+        /* Destinity 2 */
+         .d2{
+            background-image: url("../games/coopgames/destinity2/d2.jpg");
+        }
+        /* Gang Beasts */
+         .gb{
+            background-image: url("../games/coopgames/gangbeasts/gb.jpg");
+        }
+}
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+   .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+        
+    }
+    .coopgames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+    }
+    #general {
+            background-color: #cccccc; 
+            height: 100px;
+            width: 110px;
+            background-repeat: no-repeat; 
+            background-size: 110px 100px;
+            border: red 1px solid;
+            border-radius: 1px;
+            margin-bottom: 4%;
+            float: left;
+    }
+    /* Left 4 dead 2 */
+         .l4d2{
+            background-image: url("../games/coopgames/left4dead2/l4d2.jpg");
+        }
+        /* Don't Starve Together */
+         .dst{
+            background-image: url("../games/coopgames/dontstarvetogether/dst.jpg");
+        }
+        /* Among Us */
+         .amongus{
+            background-image: url("../games/coopgames/amongus/amongus.jpg");
+        }
+        /* Phasmophobia */
+         .phasmophobia{
+            background-image: url("../games/coopgames/phasmosphomobia/phasmophobia.jpg");
+        }
+        /* Terraria */
+         .terraria{
+            background-image: url("../games/coopgames/terraria/terraria.jpg");
+        }
+        /* Minecraft */
+         .mc{
+            background-image: url("../games/coopgames/minecraft/mc.jpg");
+        }
+        /* A Way Out */
+         .awayout{
+            background-image: url("../games/coopgames/awayout/awayout.jpg");
+        }
+        /* Overcooked 2 */
+         .oc2{
+            background-image: url("../games/coopgames/overcooked2/oc2.png");
+        }
+        /* Overcooked 2 */
+         .cuphead{
+            background-image: url("../games/coopgames/cuphead/cuphead.jpg");
+        }
+        /* Destinity 2 */
+         .d2{
+            background-image: url("../games/coopgames/destinity2/d2.jpg");
+        }
+        /* Gang Beasts */
+         .gb{
+            background-image: url("../games/coopgames/gangbeasts/gb.jpg");
+        }
+}

@@ -1,0 +1,123 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+        .horrorgames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #general {
+            background-color: #cccccc; 
+            height: 12vw;
+            width: 16vw;
+            background-repeat: no-repeat; 
+            background-size: 16vw 12vw;
+            border: black 0.2vw solid;
+            border-radius: 0.5vw;
+            margin-bottom: 2%;
+        }
+        /* Resident Evil */
+        .re7{
+            background-image: url("../games/horrorgames/residentevil/re7.jpg");
+        }
+        .re2{
+            background-image: url("../games/horrorgames/residentevil/re2.jpg");
+        }
+        .re3{
+            background-image: url("../games/horrorgames/residentevil/re3.jpg");
+        }
+
+        /* Outlast */
+        .ol1{
+            background-image: url("../games/horrorgames/outlast/ol1.jpg");
+        }
+        .ol2{
+            background-image: url("../games/horrorgames/outlast/ol2.jpg");
+        }
+
+        /* The Medium */
+        .themedium{
+            background-image: url("../games/horrorgames/themedium/themedium.jpg");
+        }
+
+        /* The Forest */
+        .theforest{
+            background-image: url("../games/horrorgames/theforest/theforest.jpg");
+        }
+
+        /* The Dark Pictures */
+        .manofmedan{
+            background-image: url("../games/horrorgames/thedarkpictures/manofmedan.jpg");
+        }
+        .littlehope{
+            background-image: url("../games/horrorgames/thedarkpictures/littlehope.jpg");
+        }
+}
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+   .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+        
+    }
+    .horrorgames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+    }
+    #general {
+            background-color: #cccccc; 
+            height: 100px;
+            width: 110px;
+            background-repeat: no-repeat; 
+            background-size: 110px 100px;
+            border: red 1px solid;
+            border-radius: 1px;
+            margin-bottom: 4%;
+            float: left;
+    
+    }
+    /* Resident Evil */
+        .re7{
+            background-image: url("../games/horrorgames/residentevil/re7.jpg");
+        }
+        .re2{
+            background-image: url("../games/horrorgames/residentevil/re2.jpg");
+        }
+        .re3{
+            background-image: url("../games/horrorgames/residentevil/re3.jpg");
+        }
+
+        /* Outlast */
+        .ol1{
+            background-image: url("../games/horrorgames/outlast/ol1.jpg");
+        }
+        .ol2{
+            background-image: url("../games/horrorgames/outlast/ol2.jpg");
+        }
+
+        /* The Medium */
+        .themedium{
+            background-image: url("../games/horrorgames/themedium/themedium.jpg");
+        }
+
+        /* The Forest */
+        .theforest{
+            background-image: url("../games/horrorgames/theforest/theforest.jpg");
+        }
+
+        /* The Dark Pictures */
+        .manofmedan{
+            background-image: url("../games/horrorgames/thedarkpictures/manofmedan.jpg");
+        }
+        .littlehope{
+            background-image: url("../games/horrorgames/thedarkpictures/littlehope.jpg");
+        }
+}

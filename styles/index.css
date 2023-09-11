@@ -1,0 +1,398 @@
+/* Aspectul paginii*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+/* Aspectul continutului */
+body {
+    background-color: #121212;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    opacity: 0.8;
+}
+/* Aspectul paginii de sus*/
+.header {
+    background-color: #27282e;
+    height: 3vw;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+}
+/* Asezarea navigatiei */
+nav {
+    flex: 1;
+}
+/* Aspectul navigatiei */
+.nav-links {
+    justify-content:space-around;
+    list-style: none;
+    display: flex;
+}
+/* Aspectul navigatiei */
+.nav-link{
+    text-decoration: none;
+    display: flex;
+    margin-left: 40%;
+}
+a:hover {
+    color:gold;
+}
+/* Aspectul text-ului logo */
+p {
+    font-size: 1.5vw;
+    font-family: 'Play', sans-serif;
+    color: gold;
+}
+/* Aspectul paginii de jos */
+.footer {
+    background-color: rgba(0,0,0,.6);
+    display: table-row;
+    height: 2vw;
+    font-size: 1.4vw;
+    display: flex;
+}
+/* Aspectul navigatiei de jos */
+.nav-linksFooter {
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+}
+/* Aspectul navigatiei de jos */
+.nav-linkFooter {
+    text-decoration: none;
+    display: flex;
+}
+/* Asezarea continutului */
+.content {
+    padding: 100px;
+    width: 100%;
+}
+/* Fixeaza pozitia paginii de sus atunci cand dai scroll */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* Aspectul continutului */
+.sticky + .content {
+    padding-top: 102px;
+}
+/* Imaginea fundalului */
+body {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/homeWallpaper.jpg);
+    font-weight:inherit;
+    opacity: 0.8;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #121212;
+}
+/* Aspectul navigatiei */
+.nav-Left {
+    flex: 1;
+}
+/* Aspectul navigatiei */
+.nav-linksL {
+    justify-content:space-around;
+    list-style: none;
+    display: flex;
+    margin-left: 10%;
+}
+/* Aspectul navigatiei */
+.nav-linkL{
+    text-decoration: none;
+    display: flex;
+}
+/* Aspectul navigatiei */
+    .nav-linkLG{
+        text-decoration: none;
+        display: none;
+    }
+.nav-Center {
+    flex: 1;
+}
+.nav-linksC {
+    justify-content:space-around;
+    list-style: none;
+    display: flex;
+}
+/* Aspectul navigatiei */
+.nav-linkC{
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    color:gold;
+    font-family: 'Boogaloo';
+    font-size: 2vw;
+}
+.nav-Right {
+    flex: 1;
+}
+/* Aspectul navigatiei */
+.nav-linksR {
+    justify-content:space-around;
+    list-style: none;
+    display: flex;
+    margin-right: 10%;
+}
+/* Aspectul navigatiei */
+.nav-linkR{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+i:hover {
+    color: gold;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #121212;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: back;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #121212;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.material-icons {
+    font-size: 2vw;
+}
+.nav-linkM {
+    display: none;
+}
+.dropdown-contentM {
+    display: none;
+}
+.nav-linkFooterMobile {
+    display: none;
+}
+.nav-linkRMM {
+    display: none;
+}
+.nav-linkRS {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 100%;
+}
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;   
+}
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+@media (min-width: 320px) and (max-width: 1024px) {
+    html, body {
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1 0 auto;
+    }
+    .footer {
+        flex-shrink: 0;
+    }
+    /* Aspectul paginii*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+    }
+    /* Aspectul continutului */
+    body {
+        background-color: #121212;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        opacity: 0.8;
+    }
+    /* Aspectul paginii de sus*/
+    .header {
+        background-color: #27282e;
+        padding: 20px 5px 20px 5px;
+        align-items: center;
+        display: flex;
+    }
+    /* Asezarea navigatiei */
+    nav {
+        flex: 1;
+    }
+    /* Aspectul navigatiei */
+    .nav-links {
+        justify-content:space-around;
+        list-style: none;
+        display: flex;
+    }
+    /* Aspectul navigatiei */
+    .nav-link{
+        text-decoration: none;
+        display: flex;
+        margin-left: 40%;
+    }
+    a:hover {
+        color:gold;
+    }
+    /* Aspectul paginii de jos */
+    .footer {
+        background-color: rgba(0,0,0,.6);
+        display: table-row;
+        height: 50px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    /* Aspectul navigatiei de jos */
+    .nav-linksFooter {
+        justify-content: space-around;
+        list-style: none;
+        display: flex;
+    }
+    /* Aspectul navigatiei de jos */
+    .nav-linkFooter {
+        text-decoration: none;
+        display: none;
+    }
+    /* Asezarea continutului */
+    .content {
+        padding: 100px;
+        width: 100%;
+    }
+    .nav-linkFooterMobile {
+        display: flex;
+        text-decoration: none;
+    }
+    /* Fixeaza pozitia paginii de sus atunci cand dai scroll */
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    /* Aspectul continutului */
+    .sticky + .content {
+        padding-top: 102px;
+    }
+    /* Imaginea fundalului */
+    body {
+        background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/homeWallpaper.jpg);
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #121212;
+    }
+    /* Aspectul navigatiei */
+    .nav-Left {
+        flex: 1;
+    }
+    /* Aspectul navigatiei */
+    .nav-linksL {
+        justify-content:space-around;
+        list-style: none;
+        margin-left: 0%;
+    }
+    /* Aspectul navigatiei */
+    .nav-linkL{
+        text-decoration: none;
+        display: none;
+    }
+    .nav-Center {
+        flex: 1;
+    }
+    .nav-linksC {
+        justify-content:space-around;
+        list-style: none;
+        display: flex;
+    }
+    /* Aspectul navigatiei */
+    .nav-linkC{
+        text-decoration: none;
+        margin-right: 25%;
+        color:gold;
+        font-family: 'Boogaloo';
+        font-size: 20px;
+        margin-right: 2%;
+    }
+    .nav-Right {
+        flex: 1;
+    }
+    /* Aspectul navigatiei */
+    .nav-linksR {
+        justify-content:space-around;
+        list-style: none;
+        display: flex;
+        margin-right: 10%;
+    }
+    /* Aspectul navigatiei */
+    .nav-linkR{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+    .nav-linkM{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+        margin-left: 40%;
+    }
+    i:hover {
+        color: gold;
+    }
+    .material-icons {
+        font-size: 50px;
+    }
+    .nav-linkRMM {
+        display: block;
+    }
+    .nav-linkRS {
+        display: none;
+    }
+    .h2home2 {
+        display: none !important;
+    }
+}

@@ -1,0 +1,191 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+    /* Aspectul titlului paginii */
+    h2 {
+        font-size: 2vw;
+        color: white;
+    }
+    /* Imaginea fundalului */
+    body {
+        background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/recoverpassWallpaper.jpg);
+        background-repeat: no-repeat;
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .text {
+        color: white;
+        font-size: 1vw;
+    }
+    .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    input[type=text], input[type=password] {
+        width: 30%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;;
+        color: black;
+        display: flex;
+        margin-left: 35%;
+        height: 2vw;
+        font-size: 0.8vw;
+    }
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 15px;
+    }
+    label[for=useremail]{
+        margin-left: 35%;
+    }
+    label[for=password] {
+        margin-left: 35%;
+    }
+    label[for=repeat-password] {
+        margin-left: 35%;
+    }
+    b {
+        font-size: 0.8vw;
+    }
+    input::-webkit-input-placeholder {
+        font-size: 0.8vw;
+    }
+    /* Aspectul textului din casete, submit */
+    input[type=submit] {
+        background-color:blueviolet;
+        color: white;
+        padding: 2px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 0.6vw;
+        margin-top: 2%;
+        height: 2vw;
+    }
+    /* Aspectul textului din casete */
+    input[type=submit]:hover {
+    background-color: #a92be2;;
+    }
+    .warning-text {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    html, body {
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1 0 auto;
+    }
+    .footer {
+        flex-shrink: 0;
+    }
+    /* Aspectul titlului paginii */
+    h2 {
+        display: none;
+    }
+    /* Imaginea fundalului */
+    body {
+        background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/recoverpassWallpaper.jpg);
+        background-repeat: no-repeat;
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .text {
+        color: white;
+        font-size: 10px;
+    }
+    .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+        color: black;
+        display: flex;
+        height: 2vw;
+        font-size: 12px;
+    }
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 15px;
+    }
+    b {
+        font-size: 16px;
+    }
+    input::-webkit-input-placeholder {
+        font-size: 12px;
+    }
+    /* Aspectul textului din casete, submit */
+    input[type=submit] {
+        background-color:blueviolet;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 2%;
+    }
+    /* Aspectul textului din casete */
+    input[type=submit]:hover {
+    background-color: #a92be2;;
+    }
+    .warning-text {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+}

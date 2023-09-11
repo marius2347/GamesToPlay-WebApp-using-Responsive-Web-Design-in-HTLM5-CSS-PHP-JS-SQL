@@ -1,0 +1,157 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+        .multiplayergames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #general {
+            background-color: #cccccc; 
+            height: 12vw;
+            width: 16vw;
+            background-repeat: no-repeat; 
+            background-size: 16vw 12vw;
+            border: black 0.2vw solid;
+            border-radius: 0.5vw;
+            margin-bottom: 2%;
+        }
+        /* Counter Strike */
+         .cs16 {
+            background-image: url("../games/multiplayergames/counterstrike/cs16.jpg");
+        }
+        .cssource{
+            background-image: url("../games/multiplayergames/counterstrike/cssource.jpg");
+        }
+        .csgo {
+            background-image: url("../games/multiplayergames/counterstrike/csgo.jpg");
+        }
+        
+        /* Call Of Duty */
+        .codmwwz {
+            background-image: url("../games/multiplayergames/cod/codmwwz.jpg");
+        }
+        .codbocw{
+            background-image: url("../games/multiplayergames/cod/codbocw.jpg");
+        }
+
+        /* Rocket League */
+        .rl{
+            background-image: url("../games/multiplayergames/rocketleague/rl.jpg");
+        }
+
+        /* Rainbow Six Siege */
+        .r6{
+            background-image: url("../games/multiplayergames/rainbowsixsiege/r6.jpg");
+        }
+
+        /* Team Fortress 2 */ 
+        .tf2{
+            background-image: url("../games/multiplayergames/teamfortress2/tf2.jpg");
+        }
+
+        /* Playerunknown's Battlegrounds */ 
+        .pubg{
+            background-image: url("../games/multiplayergames/pubg/pubg.jpg");
+        }
+
+        /* GTA Online */ 
+        .gtaonline{
+            background-image: url("../games/multiplayergames/gtaonline/gtaonline.jpg");
+        }
+
+        /* League Of Legends*/ 
+        .lol{
+            background-image: url("../games/multiplayergames/leagoflegends/lol.jpg");
+        }
+
+        /* Valorant */ 
+        .valorant{
+            background-image: url("../games/multiplayergames/valorant/valorant.jpg");
+        }
+}
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+   .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+        
+    }
+    .multiplayergames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+    }
+    #general {
+            background-color: #cccccc; 
+            height: 100px;
+            width: 110px;
+            background-repeat: no-repeat; 
+            background-size: 110px 100px;
+            border: red 1px solid;
+            border-radius: 1px;
+            margin-bottom: 4%;
+            float: left;
+    
+    }
+    /* Counter Strike */
+         .cs16 {
+            background-image: url("../games/multiplayergames/counterstrike/cs16.jpg");
+        }
+        .cssource{
+            background-image: url("../games/multiplayergames/counterstrike/cssource.jpg");
+        }
+        .csgo {
+            background-image: url("../games/multiplayergames/counterstrike/csgo.jpg");
+        }
+        
+        /* Call Of Duty */
+        .codmwwz {
+            background-image: url("../games/multiplayergames/cod/codmwwz.jpg");
+        }
+        .codbocw{
+            background-image: url("../games/multiplayergames/cod/codbocw.jpg");
+        }
+
+        /* Rocket League */
+        .rl{
+            background-image: url("../games/multiplayergames/rocketleague/rl.jpg");
+        }
+
+        /* Rainbow Six Siege */
+        .r6{
+            background-image: url("../games/multiplayergames/rainbowsixsiege/r6.jpg");
+        }
+
+        /* Team Fortress 2 */ 
+        .tf2{
+            background-image: url("../games/multiplayergames/teamfortress2/tf2.jpg");
+        }
+
+        /* Playerunknown's Battlegrounds */ 
+        .pubg{
+            background-image: url("../games/multiplayergames/pubg/pubg.jpg");
+        }
+
+        /* GTA Online */ 
+        .gtaonline{
+            background-image: url("../games/multiplayergames/gtaonline/gtaonline.jpg");
+        }
+
+        /* League Of Legends*/ 
+        .lol{
+            background-image: url("../games/multiplayergames/leagoflegends/lol.jpg");
+        }
+
+        /* Valorant */ 
+        .valorant{
+            background-image: url("../games/multiplayergames/valorant/valorant.jpg");
+        }
+}

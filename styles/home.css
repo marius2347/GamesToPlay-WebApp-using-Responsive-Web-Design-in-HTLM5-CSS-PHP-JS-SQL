@@ -1,0 +1,208 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+        .container {
+            padding: 26px;
+            background-color: #1b1b1b;
+        }
+        .homegames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #general {
+            background-color: #cccccc; 
+            height: 12vw;
+            width: 16vw;
+            background-repeat: no-repeat; 
+            background-size: 16vw 12vw;
+            border: red 0.2vw solid;
+            border-radius: 0.5vw;
+            margin-bottom: 2%;
+            float: left;
+            transition: 1s ease;
+            margin-top: 2%;
+        }
+        #general:hover{
+            transition: 1s ease;     
+            border:lawngreen 0.2vw solid;
+            border-radius: 0.5vw;     
+        }
+        .h2home {
+            font-size: 1.5vw;
+            color:greenyellow;
+        }
+        .h2home2 {
+            font-size: 1.5vw;
+            color:greenyellow;
+            font-size-adjust: inherit;
+        }
+        /* Grand Theft Auto San Andreas */
+         .gtasa {
+            background-image: url("../games/homegames/gtasa/gtasa.jpg");
+            background-color: #cccccc; 
+            height: 25.3vw;
+            width: 20vw;
+            background-repeat: no-repeat; 
+            background-size: 20vw 25.3vw;
+            border:royalblue 0.2vw solid;
+            border-radius: 0.5vw;
+            margin-bottom: 2%;
+            float: left;
+            transition: 1s ease;
+        }
+        .gtasa:hover {
+            transition: 1s ease;     
+            border:lawngreen 0.2vw solid;
+            border-radius: 0.5vw; 
+        }
+        /* Red Ded Redemption 2 */
+         .rdr2 {
+            background-image: url("../games/homegames/rdr2/rdr2.jpg");
+        }
+
+        /* Call Of Duty World War 2 */
+         .themedium {
+            background-image: url("../games/homegames/themedium/themedium.jpg");
+        }
+
+        /* Mafia 1 */
+         .m1 {
+            background-image: url("../games/homegames/mafia1/m1.jpg");
+        }
+
+        /* Horizon Zero Dawn */
+         .hzdawn {
+            background-image: url("../games/homegames/horizonzerodawn/hzdawn.jpg");
+        }
+
+        /* Cyberpunk 2077 */
+         .cp {
+            background-image: url("../games/homegames/cyberpunk/cp.jpg");
+        }
+
+        /* Star Wars Jedi: Fallen Order */
+         .swjedi {
+            background-image: url("../games/homegames/starwarsjedi/swjedi.jpg");
+        }
+
+        /* Detroit: Become Human */
+         .dbhuman {
+            background-image: url("../games/homegames/detroitbh/dbhuman.jpg");
+        }
+
+        /* Grand Theft Auto V */
+         .gta5 {
+            background-image: url("../games/homegames/gta5/gta5.jpg");
+        }
+    }
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    html, body {
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .h2home {
+            font-size: 10px;
+            color:greenyellow;
+    }
+    .h2home2 {
+            display: none !important;
+    }
+    .content {
+        flex: 1 0 auto;
+    }
+    .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+        margin: 0 auto;
+        display: inline-block;
+    }
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .homegames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+    }
+    #general {
+            background-color: #cccccc; 
+            height: 100px;
+            width: 110px;
+            background-repeat: no-repeat; 
+            background-size: 110px 100px;
+            border: red 1px solid;
+            border-radius: 3px;
+            margin-bottom: 4%;
+            float: left;
+        }
+        /* Grand Theft Auto San Andreas */
+         .gtasa {
+            background-image: url("../games/homegames/gtasa/gtasawide.jpg");
+            background-color: #cccccc; 
+            height: 100px;
+            width: auto;
+            background-repeat: no-repeat; 
+            background-size: cover;
+            border:royalblue 1px solid;
+            border-radius: 3px;
+            margin-bottom: 4%;
+        }
+
+        /* Red Ded Redemption 2 */
+         .rdr2 {
+            background-image: url("../games/homegames/rdr2/rdr2.jpg");
+        }
+
+        /* Call Of Duty World War 2 */
+         .themedium {
+            background-image: url("../games/homegames/themedium/themedium.jpg");
+        }
+
+        /* Mafia 1 */
+         .m1 {
+            background-image: url("../games/homegames/mafia1/m1.jpg");
+        }
+
+        /* Horizon Zero Dawn */
+         .hzdawn {
+            background-image: url("../games/homegames/horizonzerodawn/hzdawn.jpg");
+        }
+
+        /* Cyberpunk 2077 */
+         .cp {
+            background-image: url("../games/homegames/cyberpunk/cp.jpg");
+        }
+
+        /* Star Wars Jedi: Fallen Order */
+         .swjedi {
+            background-image: url("../games/homegames/starwarsjedi/swjedi.jpg");
+        }
+
+        /* Detroit: Become Human */
+         .dbhuman {
+            background-image: url("../games/homegames/detroitbh/dbhuman.jpg");
+        }
+
+        /* Grand Theft Auto V */
+         .gta5 {
+            background-image: url("../games/homegames/gta5/gta5.jpg");
+        }
+}

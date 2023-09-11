@@ -1,0 +1,128 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+
+    /* Imaginea fundalului */
+    body {
+        background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/gamesWallpaper.jpg);
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #121212;
+    }
+    .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+        border-bottom: gold solid 2px;
+    }
+    h2 {
+        font-size: 2vw;
+        color: gold;
+    }
+    .links {
+        display: flex;
+        justify-content:space-around;   
+    }
+    .below-container > div {
+        display: none;
+    }
+    .below-container > div:target {
+        display: block;
+    }
+    a {
+        text-decoration: none;
+    }
+    .below-container {
+        background-color: #1b1b1b;
+        margin-top: 1%;
+        padding: 16px;    
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+     html, body {
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    /* Imaginea fundalului */
+    body {
+        background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/gamesWallpaper.jpg);
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #121212;
+    }
+    .content {
+        flex: 1 0 auto;
+    }
+    .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+        margin: 0 auto;
+        border-bottom: gold solid 2px;
+        text-align: left;
+    }
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    h2 {
+        font-size: 2.5vw;
+        color:orange;
+    }
+    .links {
+        display: flex;
+        justify-content:space-around;   
+    }
+    .below-container > div {
+        display: none;
+    }
+    .below-container > div:target {
+        display: block;
+    }
+    a {
+        text-decoration: none;
+    }
+    .below-container {
+        background-color: #1b1b1b;
+        margin-top: 1%;
+        padding: 16px;    
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+}

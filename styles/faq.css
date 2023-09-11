@@ -1,0 +1,146 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+    h2 {
+        font-size: 2vw;
+        color: white;
+    }
+    .text {
+        color: white;
+        font-size: 1vw;
+    }
+    .faq {
+        background-color: #1b1b1b;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 40%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 1.5vw;
+        transition: 0.4s;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .active, .faq:hover {
+        background-color: blueviolet;
+    }
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: #121212;
+        overflow: hidden;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Imaginea fundalului */
+    body {
+        background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/faqWallpaper.jpg);
+        background-repeat: no-repeat;
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #121212;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    html, body {
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1 0 auto;
+    }
+    .footer {
+        flex-shrink: 0;
+    }
+    h2 {
+        font-size: 20px;
+        color: white;
+    }
+    .text {
+        color: white;
+        font-size: 15px;
+    }
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .faq {
+        background-color: #1b1b1b;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .active, .faq:hover {
+        background-color: blueviolet;
+    }
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: #121212;
+        overflow: hidden;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Imaginea fundalului */
+    body {
+        background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/faqWallpaper.jpg);
+        background-repeat: no-repeat;
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #121212;
+    }
+    a {
+        text-decoration: none;
+    }
+}

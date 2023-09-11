@@ -1,0 +1,224 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+    /* Aspectul titlului paginii */
+    h2 {
+        font-size: 2vw;
+        color: white;
+    }
+    /* Aspectul textului */
+    .text {
+        color: white;
+        font-size:1vw;
+    }
+    /* Aspectul titlului textului */
+    .text-title {
+        color: gold;
+        font-size: 3vw;
+    }
+    /* Aspectul titlului textului al doilea*/
+    .text-titleTwo {
+        color: white;
+        font-size: 3vw;
+    }
+    /* Setarile imaginii */
+    img {
+        width: 10vw;
+        height: 10vw;
+    }
+    /* Aspectul imaginii */
+    .founderLogo {
+        width: 10vw;
+        height: 10vw;
+        border-left: 0.3vw solid blueviolet;
+    }
+    /* Aspectul textului imaginii */
+    .textLogo {
+        color: white;
+        font-size: 2vw;
+        margin-left: 5%;
+    }
+    /* Aspectul titlului textului */
+    .textTitle {
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1vw;
+        margin-top: 10%;
+        margin-left: 0.4vw;
+    }
+    /* Aspectul textului descrierii */
+    .founderdesc {
+        display: flex;
+        background-color: #1b1b1b;
+        width: 13vw;
+        height: 10vw;
+        display: table;
+    }
+    /* Aspectul imaginii */
+    .founder {
+        display: flex;
+        width: 23vw;
+        height: 10vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Aspectul textului descrierii */
+    .textdesc {
+        color: white;
+        font-size: 1vw;
+        margin-top: 10%;
+        margin-left: 0.4vw;
+    }
+    /* Aspectul textului e-mail-ul */
+    .textmail {
+        color: white;
+        font-size: 1vw;
+        margin-top: 10%;
+        margin-left: 0.4vw;
+    }
+    /* Aspectul continutului */
+    body {
+        background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/aboutWallpaper.jpg);
+        background-repeat: no-repeat;
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #121212;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    html, body {
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1 0 auto;
+    }
+    .footer {
+        flex-shrink: 0;
+    }
+    /* Aspectul titlului paginii */
+    h2 {
+        font-size: 20px;
+        color: white;
+    }
+    /* Aspectul textului */
+    .text {
+        color: white;
+        font-size:15px;
+    }
+    /* Aspectul titlului textului */
+    .text-title {
+        color: gold;
+        font-size: 20px;
+    }
+    /* Aspectul titlului textului al doilea*/
+    .text-titleTwo {
+        color: white;
+        font-size: 20px;
+    }
+    .content {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    /* Setarile imaginii */
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    /* Aspectul imaginii */
+    .founderLogo {
+        width: 100px;
+        height: 100px;
+        border-left: 0.3vw solid blueviolet;
+    }
+    /* Aspectul textului imaginii */
+    .textLogo {
+        color: white;
+        font-size: 18px;
+        margin-left: 5%;
+    }
+    /* Aspectul titlului textului */
+    .textTitle {
+        color: grey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    /* Aspectul textului descrierii */
+    .founderdesc {
+        display: flex;
+        background-color: #1b1b1b;
+        width: 130px;
+        height: 100px;
+        display: table;
+    }
+    /* Aspectul imaginii */
+    .founder {
+        display: flex;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+    /* Aspectul textului descrierii */
+    .textdesc {
+        color: white;
+        font-size: 10px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    /* Aspectul textului e-mail-ul */
+    .textmail {
+        color: white;
+        font-size: 10px;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    /* Aspectul continutului */
+    body {
+        background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/aboutWallpaper.jpg);
+        background-repeat: no-repeat;
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #121212;
+    }
+    a {
+        text-decoration: none;
+    }
+}

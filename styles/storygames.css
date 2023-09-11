@@ -1,0 +1,481 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+        .storygames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #general {
+            background-color: #cccccc; 
+            height: 12vw;
+            width: 16vw;
+            background-repeat: no-repeat; 
+            background-size: 16vw 12vw;
+            border: black 0.2vw solid;
+            border-radius: 0.5vw;
+            margin-bottom: 2%;
+            transition: 1s ease;
+        }
+        #general:hover{
+            transition: 1s ease;     
+            border:lawngreen 0.2vw solid;
+            border-radius: 0.5vw;     
+        }
+        /* Rockstar Games */
+        .gtasa {
+            background-image: url("../games/storygames/rockstargames/gtasa.jpg");
+        }
+        .rdr2 {
+            background-image: url("../games/storygames/rockstargames/rdr2.jpg");
+        }
+        .gta5 {
+            background-image: url("../games/storygames/rockstargames/gta5.jpg");
+        }
+        .gta4 {
+            background-image: url("../games/storygames/rockstargames/gta4.jpg");
+        }
+        .gta4ballad {
+            background-image: url("../games/storygames/rockstargames/gta4ballad.jpg");
+        }
+        .gta4damned {
+            background-image: url("../games/storygames/rockstargames/gta4damned.jpg");
+        }  
+        .gtavc {
+            background-image: url("../games/storygames/rockstargames/gtavc.jpg");
+        }
+        .gtavcs {
+            background-image: url("../games/storygames/rockstargames/gtavcs.jpg");
+        } 
+        .gta3 {
+            background-image: url("../games/storygames/rockstargames/gta3.jpg");
+        }
+        .gtalcs {
+            background-image: url("../games/storygames/rockstargames/gtalcs.jpg");
+        } 
+        .bully {
+            background-image: url("../games/storygames/rockstargames/bully.jpg");
+        } 
+        .maxpayne3 {
+            background-image: url("../games/storygames/rockstargames/maxpayne3.jpg");
+        } 
+
+        /* Assassin's Creed */  
+        .ac1 {
+            background-image: url("../games/storygames/assassinscreed/ac1.jpg");
+        } 
+        .ac2 {
+            background-image: url("../games/storygames/assassinscreed/ac2.jpg");
+        } 
+        .acb {
+            background-image: url("../games/storygames/assassinscreed/acb.jpg");
+        } 
+        .acr {
+            background-image: url("../games/storygames/assassinscreed/acr.jpg");
+        } 
+        .ac3 {
+            background-image: url("../games/storygames/assassinscreed/ac3.jpg");
+        } 
+        .ac4 {
+            background-image: url("../games/storygames/assassinscreed/ac4.jpg");
+        } 
+        .acro {
+            background-image: url("../games/storygames/assassinscreed/acro.jpg");
+        } 
+        .acu {
+            background-image: url("../games/storygames/assassinscreed/acu.jpg");
+        } 
+        .acs {
+            background-image: url("../games/storygames/assassinscreed/acs.jpg");
+        }
+        .aco {
+            background-image: url("../games/storygames/assassinscreed/aco.jpg");
+        }
+        .acod {
+            background-image: url("../games/storygames/assassinscreed/acod.jpg");
+        }
+        .acv {
+            background-image: url("../games/storygames/assassinscreed/acv.jpg");
+        }
+
+        /* Far Cry */
+        .fc3 {
+            background-image: url("../games/storygames/farcry/fc3.jpg");
+        }
+        .fc4 {
+            background-image: url("../games/storygames/farcry/fc4.jpg");
+        }
+        .fc5 {
+            background-image: url("../games/storygames/farcry/fc5.jpg");
+        }
+        .fcnd {
+            background-image: url("../games/storygames/farcry/fcnd.jpg");
+        }
+
+        /* Call Of Duty */
+        .codmw2r {
+            background-image: url("../games/storygames/callofduty/codmw2r.jpg");
+        }
+        .codww2 {
+            background-image: url("../games/storygames/callofduty/codww2.jpg");
+        }
+
+        /* Watch Dogs */
+        .wd1 {
+            background-image: url("../games/storygames/watchdogs/wd1.jpg");
+        }
+        .wd2 {
+            background-image: url("../games/storygames/watchdogs/wd2.jpg");
+        }
+
+        /* Battlefield */
+        .bf3{
+            background-image: url("../games/storygames/battlefield/bf3.jpg");
+        }
+        .bf4{
+            background-image: url("../games/storygames/battlefield/bf4.jpg");
+        }
+        .bf1{
+            background-image: url("../games/storygames/battlefield/bf1.jpg");
+        }
+        .bf5{
+            background-image: url("../games/storygames/battlefield/bf5.jpg");
+        }
+
+        /* Tomb Raider */
+        .tr{
+            background-image: url("../games/storygames/tombraider/tr.jpg");
+        }
+        .risetr{
+            background-image: url("../games/storygames/tombraider/risetr.jpg");
+        }
+        .shadowtr{
+            background-image: url("../games/storygames/tombraider/shadowtr.jpg");
+        }
+
+        /* Marvel Avengers */
+        .ma{
+            background-image: url("../games/storygames/marvelavengers/ma.jpg");
+        }
+        
+        /* Mafia */
+        .m2{
+            background-image: url("../games/storygames/mafia/m2.jpg");
+        }
+        .m3{
+            background-image: url("../games/storygames/mafia/m3.jpg");
+        }
+        .m1{
+            background-image: url("../games/storygames/mafia/m1.jpg");
+        }
+
+        /* CD PROJEKT RED */
+        .cp{
+            background-image: url("../games/storygames/cdprojektred/cp.jpg");
+        }
+        .witcher3{
+            background-image: url("../games/storygames/cdprojektred/witcher3.jpg");
+        }
+
+        /* Star Wars */ 
+        .swjedi{
+            background-image: url("../games/storygames/starwars/swjedi.jpg");
+        }
+        .swb2{
+            background-image: url("../games/storygames/starwars/swb2.jpg");
+        }
+
+        /* Gears 5 */ 
+        .g5{
+            background-image: url("../games/storygames/gears/g5.jpg");
+        }
+
+        /* Quantic Dream */ 
+        .dbhuman{
+            background-image: url("../games/storygames/quanticdream/dbhuman.jpg");
+        }
+        .hrain{
+            background-image: url("../games/storygames/quanticdream/hrain.jpg");
+        }
+
+        /* Dontnod Entertainment */ 
+        .lis1{
+            background-image: url("../games/storygames/dontnodentertainment/lis1.jpg");
+        }
+        .lisbs{
+            background-image: url("../games/storygames/dontnodentertainment/lisbs.jpg");
+        }
+        .cspirit{
+            background-image: url("../games/storygames/dontnodentertainment/cspirit.jpg");
+        }
+        .lis2{
+            background-image: url("../games/storygames/dontnodentertainment/lis2.jpg");
+        }
+        .tmw{
+            background-image: url("../games/storygames/dontnodentertainment/tmw.jpg");
+        }
+        
+        /* Horizon Zero Dawn */ 
+        .hzdawn{
+            background-image: url("../games/storygames/horizonzerodawn/hzdawn.jpg");
+        }
+
+        /* Just Cause */ 
+        .jc3{
+            background-image: url("../games/storygames/avalanchestudios/jc3.jpg");
+        }
+        .jc4{
+            background-image: url("../games/storygames/avalanchestudios/jc4.jpg");
+        }
+        .mmax{
+            background-image: url("../games/storygames/avalanchestudios/mmax.jpg");
+        }
+        
+    }
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+   .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+    }
+    .storygames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+    }
+    #general {
+            background-color: #cccccc; 
+            height: 100px;
+            width: 110px;
+            background-repeat: no-repeat; 
+            background-size: 110px 100px;
+            border: red 1px solid;
+            border-radius: 1px;
+            margin-bottom: 4%;
+            float: left;
+            transition: 1s ease;
+    }
+    #general:hover{
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 1s ease;     
+            border:lawngreen 0.2vw solid;
+            border-radius: 0.5vw;     
+        }
+        /* Rockstar Games */
+        .gtasa {
+            background-image: url("../games/storygames/rockstargames/gtasa.jpg");
+        }
+        .rdr2 {
+            background-image: url("../games/storygames/rockstargames/rdr2.jpg");
+        }
+        .gta5 {
+            background-image: url("../games/storygames/rockstargames/gta5.jpg");
+        }
+        .gta4 {
+            background-image: url("../games/storygames/rockstargames/gta4.jpg");
+        }
+        .gta4ballad {
+            background-image: url("../games/storygames/rockstargames/gta4ballad.jpg");
+        }
+        .gta4damned {
+            background-image: url("../games/storygames/rockstargames/gta4damned.jpg");
+        }  
+        .gtavc {
+            background-image: url("../games/storygames/rockstargames/gtavc.jpg");
+        }
+        .gtavcs {
+            background-image: url("../games/storygames/rockstargames/gtavcs.jpg");
+        } 
+        .gta3 {
+            background-image: url("../games/storygames/rockstargames/gta3.jpg");
+        }
+        .gtalcs {
+            background-image: url("../games/storygames/rockstargames/gtalcs.jpg");
+        } 
+        .bully {
+            background-image: url("../games/storygames/rockstargames/bully.jpg");
+        } 
+        .maxpayne3 {
+            background-image: url("../games/storygames/rockstargames/maxpayne3.jpg");
+        } 
+
+        /* Assassin's Creed */  
+        .ac1 {
+            background-image: url("../games/storygames/assassinscreed/ac1.jpg");
+        } 
+        .ac2 {
+            background-image: url("../games/storygames/assassinscreed/ac2.jpg");
+        } 
+        .acb {
+            background-image: url("../games/storygames/assassinscreed/acb.jpg");
+        } 
+        .acr {
+            background-image: url("../games/storygames/assassinscreed/acr.jpg");
+        } 
+        .ac3 {
+            background-image: url("../games/storygames/assassinscreed/ac3.jpg");
+        } 
+        .ac4 {
+            background-image: url("../games/storygames/assassinscreed/ac4.jpg");
+        } 
+        .acro {
+            background-image: url("../games/storygames/assassinscreed/acro.jpg");
+        } 
+        .acu {
+            background-image: url("../games/storygames/assassinscreed/acu.jpg");
+        } 
+        .acs {
+            background-image: url("../games/storygames/assassinscreed/acs.jpg");
+        }
+        .aco {
+            background-image: url("../games/storygames/assassinscreed/aco.jpg");
+        }
+        .acod {
+            background-image: url("../games/storygames/assassinscreed/acod.jpg");
+        }
+        .acv {
+            background-image: url("../games/storygames/assassinscreed/acv.jpg");
+        }
+
+        /* Far Cry */
+        .fc3 {
+            background-image: url("../games/storygames/farcry/fc3.jpg");
+        }
+        .fc4 {
+            background-image: url("../games/storygames/farcry/fc4.jpg");
+        }
+        .fc5 {
+            background-image: url("../games/storygames/farcry/fc5.jpg");
+        }
+        .fcnd {
+            background-image: url("../games/storygames/farcry/fcnd.jpg");
+        }
+
+        /* Call Of Duty */
+        .codmw2r {
+            background-image: url("../games/storygames/callofduty/codmw2r.jpg");
+        }
+        .codww2 {
+            background-image: url("../games/storygames/callofduty/codww2.jpg");
+        }
+
+        /* Watch Dogs */
+        .wd1 {
+            background-image: url("../games/storygames/watchdogs/wd1.jpg");
+        }
+        .wd2 {
+            background-image: url("../games/storygames/watchdogs/wd2.jpg");
+        }
+
+        /* Battlefield */
+        .bf3{
+            background-image: url("../games/storygames/battlefield/bf3.jpg");
+        }
+        .bf4{
+            background-image: url("../games/storygames/battlefield/bf4.jpg");
+        }
+        .bf1{
+            background-image: url("../games/storygames/battlefield/bf1.jpg");
+        }
+        .bf5{
+            background-image: url("../games/storygames/battlefield/bf5.jpg");
+        }
+
+        /* Tomb Raider */
+        .tr{
+            background-image: url("../games/storygames/tombraider/tr.jpg");
+        }
+        .risetr{
+            background-image: url("../games/storygames/tombraider/risetr.jpg");
+        }
+        .shadowtr{
+            background-image: url("../games/storygames/tombraider/shadowtr.jpg");
+        }
+
+        /* Marvel Avengers */
+        .ma{
+            background-image: url("../games/storygames/marvelavengers/ma.jpg");
+        }
+        
+        /* Mafia */
+        .m2{
+            background-image: url("../games/storygames/mafia/m2.jpg");
+        }
+        .m3{
+            background-image: url("../games/storygames/mafia/m3.jpg");
+        }
+        .m1{
+            background-image: url("../games/storygames/mafia/m1.jpg");
+        }
+
+        /* CD PROJEKT RED */
+        .cp{
+            background-image: url("../games/storygames/cdprojektred/cp.jpg");
+        }
+        .witcher3{
+            background-image: url("../games/storygames/cdprojektred/witcher3.jpg");
+        }
+
+        /* Star Wars */ 
+        .swjedi{
+            background-image: url("../games/storygames/starwars/swjedi.jpg");
+        }
+        .swb2{
+            background-image: url("../games/storygames/starwars/swb2.jpg");
+        }
+
+        /* Gears 5 */ 
+        .g5{
+            background-image: url("../games/storygames/gears/g5.jpg");
+        }
+
+        /* Quantic Dream */ 
+        .dbhuman{
+            background-image: url("../games/storygames/quanticdream/dbhuman.jpg");
+        }
+        .hrain{
+            background-image: url("../games/storygames/quanticdream/hrain.jpg");
+        }
+
+        /* Dontnod Entertainment */ 
+        .lis1{
+            background-image: url("../games/storygames/dontnodentertainment/lis1.jpg");
+        }
+        .lisbs{
+            background-image: url("../games/storygames/dontnodentertainment/lisbs.jpg");
+        }
+        .cspirit{
+            background-image: url("../games/storygames/dontnodentertainment/cspirit.jpg");
+        }
+        .lis2{
+            background-image: url("../games/storygames/dontnodentertainment/lis2.jpg");
+        }
+        .tmw{
+            background-image: url("../games/storygames/dontnodentertainment/tmw.jpg");
+        }
+        
+        /* Horizon Zero Dawn */ 
+        .hzdawn{
+            background-image: url("../games/storygames/horizonzerodawn/hzdawn.jpg");
+        }
+
+        /* Just Cause */ 
+        .jc3{
+            background-image: url("../games/storygames/avalanchestudios/jc3.jpg");
+        }
+        .jc4{
+            background-image: url("../games/storygames/avalanchestudios/jc4.jpg");
+        }
+        .mmax{
+            background-image: url("../games/storygames/avalanchestudios/mmax.jpg");
+        }
+}

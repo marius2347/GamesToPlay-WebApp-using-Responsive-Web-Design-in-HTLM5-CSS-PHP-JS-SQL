@@ -1,0 +1,243 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+  /* Aspectul titlului paginii */
+  h2 {
+      font-size: 2vw;
+  }
+  /* Aspectul textului din casete */
+  input[type=text]{
+    width: 10%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: black;
+    font-size: 0.6vw;
+  }
+  /* Aspectul textului din casete, submit */
+  input[type=submit] {
+    background-color:blueviolet;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.6vw;
+  }
+  /* Aspectul textului din casete */
+  input[type=submit]:hover {
+    background-color: #a92be2;;
+  }
+  /* Asezarea continutului */
+  .container {
+    border-radius: 5px;
+    background-color: #1b1b1b;
+    padding: 20px;
+  }
+  /* Aspectul textului din subject */
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: black;
+    font-size: 2vw;
+    resize: none;
+  }
+  /* Aspectul textului dinaintea castei */
+  label {
+      font-size: 1vw;
+  }
+  /* Asezarea continutului din subject */
+  .subject {
+      display: table;
+  }
+  /* Aspectul first-name-ului */
+  .fname {
+      margin-right: 50px;
+      width: 150px !important;
+      max-width: none !important; 
+  }
+  /* Aspectul last-name-ului */
+  .lname {
+      margin-right: 50px;
+      width: 150px !important;
+      max-width: none !important;
+  }
+  /* Aspectul e-mail-ului */
+  .mail {
+    margin-right: 50px;
+    width: 150px !important;
+    max-width: none !important;
+  }
+  /* Optimizarea imaginii la rezolutie tip telefon */
+  @media screen and (max-width: 900px)
+  {
+      input, label, select, textarea {
+        display: flex;
+      }
+  }
+  /* Imaginea fundalului */
+  body {
+      background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/contactusWallpaper.jpg);
+      background-repeat: no-repeat;
+      font-weight:inherit;
+      opacity: 0.8;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: #121212;
+  }
+  .warning-text {
+        font-size: 12px;
+    } 
+}
+
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  html, body {
+        height: 100%;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        flex: 1 0 auto;
+    }
+    .footer {
+        flex-shrink: 0;
+    }
+  /* Aspectul titlului paginii */
+  h2 {
+      display: none;
+  }
+  /* Aspectul textului din casete */
+  input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    color: black;
+    display: flex;
+    height: 2vw;
+    font-size: 12px;
+  }
+  /* Aspectul textului din casete, submit */
+  input[type=submit] {
+    background-color:blueviolet;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 2%;
+  }
+  /* Aspectul textului din casete */
+  input[type=submit]:hover {
+    background-color: #a92be2;;
+  }
+  /* Asezarea continutului */
+  .container {
+    border-radius: 5px;
+    background-color: #1b1b1b;
+    padding: 20px;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .content {
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    }
+  /* Aspectul textului din subject */
+  textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    color: black;
+    display: flex;
+    font-size: 12px;
+  }
+  /* Aspectul textului dinaintea castei */
+  label {
+      font-size: 16px;
+  }
+  /* Asezarea continutului din subject */
+  .subject {
+      display: table;
+  }
+  /* Aspectul first-name-ului */
+  .fname {
+      margin-right: 50px;
+      width: 150px !important;
+      max-width: none !important; 
+  }
+  /* Aspectul last-name-ului */
+  .lname {
+      margin-right: 50px;
+      width: 150px !important;
+      max-width: none !important;
+  }
+  /* Aspectul e-mail-ului */
+  .mail {
+    margin-right: 50px;
+    width: 150px !important;
+    max-width: none !important;
+  }
+  /* Optimizarea imaginii la rezolutie tip telefon */
+  @media screen and (max-width: 900px)
+  {
+      input, label, select, textarea {
+        display: flex;
+      }
+  }
+  /* Imaginea fundalului */
+  body {
+      background-image: 
+      linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/contactusWallpaper.jpg);
+      background-repeat: no-repeat;
+      font-weight:inherit;
+      opacity: 0.8;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: #121212;
+  }
+  .warning-text {
+        font-size: 12px;
+    } 
+}

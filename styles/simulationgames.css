@@ -1,0 +1,108 @@
+/*
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to higher resolution desktops
+*/
+@media (min-width: 1025px) {
+        .simulationgames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #general {
+            background-color: #cccccc; 
+            height: 12vw;
+            width: 16vw;
+            background-repeat: no-repeat; 
+            background-size: 16vw 12vw;
+            border: black 0.2vw solid;
+            border-radius: 0.5vw;
+            margin-bottom: 2%;
+        }
+        /* Left 4 dead 2 */
+         .ets2{
+            background-image: url("../games/simulationgames/eurotrucksimulator2/ets2.jpg");
+        }
+        /* Racing Games */
+        .fh4{
+            background-image: url("../games/simulationgames/racing/fh4.jpg");
+        }
+        .f12015{
+            background-image: url("../games/simulationgames/racing/f12015.jpg");
+        }
+        .f12018{
+            background-image: url("../games/simulationgames/racing/f12018.jpg");
+        }
+        .nfsh{
+            background-image: url("../games/simulationgames/racing/nfsh.jpg");
+        }
+        .dirt3{
+            background-image: url("../games/simulationgames/racing/dirt3.jpg");
+        }
+        .grid2{
+            background-image: url("../games/simulationgames/racing/grid2.jpg");
+        }
+
+        /* Cities: Skylines */
+        .csk{
+            background-image: url("../games/simulationgames/citiesskylines/csk.jpg");
+        }
+    }
+/*
+    ##Device = Most smartphones, tablets, ipads
+    ##Screen = B/w 320px to 1024px
+
+*/
+
+@media (min-width: 320px) and (max-width: 1024px) {
+   .container {
+        padding: 16px;
+        background-color: #1b1b1b;
+        
+    }
+    .simulationgames-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+    }
+    #general {
+            background-color: #cccccc; 
+            height: 100px;
+            width: 110px;
+            background-repeat: no-repeat; 
+            background-size: 110px 100px;
+            border: red 1px solid;
+            border-radius: 1px;
+            margin-bottom: 4%;
+            float: left;
+    
+    }
+    /* Left 4 dead 2 */
+         .ets2{
+            background-image: url("../games/simulationgames/eurotrucksimulator2/ets2.jpg");
+        }
+        /* Racing Games */
+        .fh4{
+            background-image: url("../games/simulationgames/racing/fh4.jpg");
+        }
+        .f12015{
+            background-image: url("../games/simulationgames/racing/f12015.jpg");
+        }
+        .f12018{
+            background-image: url("../games/simulationgames/racing/f12018.jpg");
+        }
+        .nfsh{
+            background-image: url("../games/simulationgames/racing/nfsh.jpg");
+        }
+        .dirt3{
+            background-image: url("../games/simulationgames/racing/dirt3.jpg");
+        }
+        .grid2{
+            background-image: url("../games/simulationgames/racing/grid2.jpg");
+        }
+
+        /* Cities: Skylines */
+        .csk{
+            background-image: url("../games/simulationgames/citiesskylines/csk.jpg");
+        }
+    
+}
