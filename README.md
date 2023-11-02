@@ -12,13 +12,13 @@
 
 <h2>Acknowledgments</h2>
 
-<b> HTML5: https://drive.google.com/file/d/17S9vVYtknXfNjYpVme9Y-3b8VVkj1uM_/view?usp=drive_link <b>
+<b> HTML5: https://bit.ly/html5-certifications<b>
 <br>
-<b> JavaScript: https://drive.google.com/file/d/1l2DxAsm709qY1ODP9HDLFnudGxbGtPoq/view?usp=drive_link <b>
+<b> JavaScript: https://bit.ly/javascript-certifications <b>
 <br>
-<b> CSS: https://drive.google.com/file/d/18mM5STnlJf0H48v6FHUwcRnloAEnFAGi/view?usp=drive_link <b>
+<b> CSS: https://bit.ly/css-certifications <b>
 <br>
-<b> Responsive Web Design: https://drive.google.com/file/d/1B5O0u9JgHr3G5YqEY4Z3_f5O5Zqmyno-/view?usp=drive_link<b>
+<b> Responsive Web Design: https://bit.ly/responsive-web-design-certifications <b>
 
 <h2>Contact</h2>
 
