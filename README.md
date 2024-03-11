@@ -19,6 +19,9 @@
 <b> CSS: https://bit.ly/css-certifications <b>
 <br>
 <b> Responsive Web Design: https://bit.ly/responsive-web-design-certifications <b>
+<br>
+<b> PHP: https://bit.ly/php-certificate <b>
+<br>
 
 <h2>Photos</h2>
 <p>Desktop Website</p>
