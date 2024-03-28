@@ -22,6 +22,8 @@
 <br>
 <b> PHP: https://bit.ly/php-certificate <b>
 <br>
+<b> SQL: https://bit.ly/sql-certificatee <b>
+<br>
 
 <h2>Photos</h2>
 <p>Desktop Website</p>
