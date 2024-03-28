@@ -1,4 +1,4 @@
-<h1>GamesToPlay - HTML5/PHP/JS/CSS Project</h1>
+<h1>GamesToPlay - HTML5/PHP/JS/CSS/SQL Project</h1>
 <br>
 <h3>Features</h3>
 <ul>
